@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TestTextViewTable.xcodeproj">
+      location = "self:/Volumes/Data/iPhone Tests/TestTextViewTable/TextViewTable.xcodeproj">
    </FileRef>
 </Workspace>

@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		1490781C1C2E31BD004F14CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1490781B1C2E31BD004F14CC /* main.m */; };
 		1490781F1C2E31BD004F14CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1490781E1C2E31BD004F14CC /* AppDelegate.m */; };
-		149078221C2E31BD004F14CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149078211C2E31BD004F14CC /* ViewController.m */; };
 		149078251C2E31BD004F14CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149078231C2E31BD004F14CC /* Main.storyboard */; };
 		149078271C2E31BD004F14CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149078261C2E31BD004F14CC /* Assets.xcassets */; };
 		1490782A1C2E31BD004F14CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149078281C2E31BD004F14CC /* LaunchScreen.storyboard */; };
+		149078351C2E3214004F14CC /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149078341C2E3214004F14CC /* TableViewController.m */; };
+		149078381C2E322A004F14CC /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 149078371C2E322A004F14CC /* TableViewCell.m */; };
+		1490783B1C2E323E004F14CC /* TextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1490783A1C2E323E004F14CC /* TextViewTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		149078171C2E31BD004F14CC /* TestTextViewTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTextViewTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		149078171C2E31BD004F14CC /* TextViewTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextViewTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1490781B1C2E31BD004F14CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1490781D1C2E31BD004F14CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1490781E1C2E31BD004F14CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		149078201C2E31BD004F14CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		149078211C2E31BD004F14CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		149078241C2E31BD004F14CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		149078261C2E31BD004F14CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		149078291C2E31BD004F14CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1490782B1C2E31BD004F14CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		149078331C2E3214004F14CC /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		149078341C2E3214004F14CC /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		149078361C2E322A004F14CC /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		149078371C2E322A004F14CC /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		149078391C2E323E004F14CC /* TextViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewTableViewCell.h; sourceTree = "<group>"; };
+		1490783A1C2E323E004F14CC /* TextViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +48,7 @@
 		1490780E1C2E31BD004F14CC = {
 			isa = PBXGroup;
 			children = (
-				149078191C2E31BD004F14CC /* TestTextViewTable */,
+				149078191C2E31BD004F14CC /* TextViewTable */,
 				149078181C2E31BD004F14CC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,24 +56,25 @@
 		149078181C2E31BD004F14CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				149078171C2E31BD004F14CC /* TestTextViewTable.app */,
+				149078171C2E31BD004F14CC /* TextViewTable.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		149078191C2E31BD004F14CC /* TestTextViewTable */ = {
+		149078191C2E31BD004F14CC /* TextViewTable */ = {
 			isa = PBXGroup;
 			children = (
+				149078311C2E3203004F14CC /* Controllers */,
+				149078321C2E3203004F14CC /* Views */,
 				1490781D1C2E31BD004F14CC /* AppDelegate.h */,
 				1490781E1C2E31BD004F14CC /* AppDelegate.m */,
-				149078201C2E31BD004F14CC /* ViewController.h */,
-				149078211C2E31BD004F14CC /* ViewController.m */,
 				149078231C2E31BD004F14CC /* Main.storyboard */,
 				149078261C2E31BD004F14CC /* Assets.xcassets */,
 				149078281C2E31BD004F14CC /* LaunchScreen.storyboard */,
 				1490782B1C2E31BD004F14CC /* Info.plist */,
 				1490781A1C2E31BD004F14CC /* Supporting Files */,
 			);
+			name = TextViewTable;
 			path = TestTextViewTable;
 			sourceTree = "<group>";
 		};
@@ -79,12 +86,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		149078311C2E3203004F14CC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				149078331C2E3214004F14CC /* TableViewController.h */,
+				149078341C2E3214004F14CC /* TableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		149078321C2E3203004F14CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				149078361C2E322A004F14CC /* TableViewCell.h */,
+				149078371C2E322A004F14CC /* TableViewCell.m */,
+				149078391C2E323E004F14CC /* TextViewTableViewCell.h */,
+				1490783A1C2E323E004F14CC /* TextViewTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		149078161C2E31BD004F14CC /* TestTextViewTable */ = {
+		149078161C2E31BD004F14CC /* TextViewTable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1490782E1C2E31BD004F14CC /* Build configuration list for PBXNativeTarget "TestTextViewTable" */;
+			buildConfigurationList = 1490782E1C2E31BD004F14CC /* Build configuration list for PBXNativeTarget "TextViewTable" */;
 			buildPhases = (
 				149078131C2E31BD004F14CC /* Sources */,
 				149078141C2E31BD004F14CC /* Frameworks */,
@@ -94,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = TestTextViewTable;
+			name = TextViewTable;
 			productName = TestTextViewTable;
-			productReference = 149078171C2E31BD004F14CC /* TestTextViewTable.app */;
+			productReference = 149078171C2E31BD004F14CC /* TextViewTable.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +140,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 149078121C2E31BD004F14CC /* Build configuration list for PBXProject "TestTextViewTable" */;
+			buildConfigurationList = 149078121C2E31BD004F14CC /* Build configuration list for PBXProject "TextViewTable" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -126,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				149078161C2E31BD004F14CC /* TestTextViewTable */,
+				149078161C2E31BD004F14CC /* TextViewTable */,
 			);
 		};
 /* End PBXProject section */
@@ -149,8 +176,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				149078221C2E31BD004F14CC /* ViewController.m in Sources */,
 				1490781F1C2E31BD004F14CC /* AppDelegate.m in Sources */,
+				149078381C2E322A004F14CC /* TableViewCell.m in Sources */,
+				1490783B1C2E323E004F14CC /* TextViewTableViewCell.m in Sources */,
+				149078351C2E3214004F14CC /* TableViewController.m in Sources */,
 				1490781C1C2E31BD004F14CC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +291,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestTextViewTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rooftoptek.TestTextViewTable;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TextViewTable;
+				PRODUCT_NAME = TextViewTable;
 			};
 			name = Debug;
 		};
@@ -273,16 +303,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestTextViewTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rooftoptek.TestTextViewTable;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TextViewTable;
+				PRODUCT_NAME = TextViewTable;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		149078121C2E31BD004F14CC /* Build configuration list for PBXProject "TestTextViewTable" */ = {
+		149078121C2E31BD004F14CC /* Build configuration list for PBXProject "TextViewTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1490782C1C2E31BD004F14CC /* Debug */,
@@ -291,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1490782E1C2E31BD004F14CC /* Build configuration list for PBXNativeTarget "TestTextViewTable" */ = {
+		1490782E1C2E31BD004F14CC /* Build configuration list for PBXNativeTarget "TextViewTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1490782F1C2E31BD004F14CC /* Debug */,

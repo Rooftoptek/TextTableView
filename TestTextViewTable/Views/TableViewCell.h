@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  TableViewCell.h
 //  TextViewTable
 //
 //  Created by Emmanuel Merali on 26/12/2015.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface TableViewCell : UITableViewCell
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic, weak) UITableView                     *tableView;
 
 @end
-
